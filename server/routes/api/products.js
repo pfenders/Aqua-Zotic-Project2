@@ -23,17 +23,18 @@ module.exports = (app) => {
       .catch((err) => next(err));
   });
 
-
+  
 
   app.put('/api/products/update/:id', (req, res, next) => {
-    Product.findByIdAndUpdate(req.params.id,
-      req.body,
-      { new: true },
-      (err, product) => {
-        if (err)
-          return next(err);
+    Product.findById(req.params.id)
+      .exec()
+      .then((product) => {
+        // product.count--;
 
-        res.json(product);
-      });
+        product.save()
+          .then(() => res.json(product))
+          .catch((err) => next(err));
+      })
+      .catch((err) => next(err));
   });
-}
+};
