@@ -1,5 +1,5 @@
 {
-  "name": "MERNboilerplate",
+  "name": "MERN-boilerplate",
   "version": "1.0.0",
   "description": "MERN stack project boilerplate",
   "author": "Eugene Cheung",
@@ -20,9 +20,7 @@
     "@babel/core": "^7.0.0-beta.54",
     "@babel/preset-env": "^7.0.0-beta.42",
     "@babel/preset-react": "^7.0.0-beta.54",
-    "@okta/okta-react": "^1.0.2",
-    "@okta/okta-sdk-nodejs": "github:okta/okta-sdk-nodejs",
-    "@okta/okta-signin-widget": "github:okta/okta-signin-widget",
+  
     "autoprefixer": "^8.6.5",
     "babel-loader": "^8.0.0-beta.4",
     "connect-history-api-fallback": "^1.5.0",
