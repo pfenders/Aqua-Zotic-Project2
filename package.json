@@ -14,7 +14,7 @@
     "start:dev": "node server"
   },
   "engines": {
-    "node": "5.5.1"
+    "node": "6.11.1"
   },
   "dependencies": {
     "@babel/core": "^7.0.0-beta.42",
