@@ -20,7 +20,6 @@
     "@babel/core": "^7.0.0-beta.54",
     "@babel/preset-env": "^7.0.0-beta.42",
     "@babel/preset-react": "^7.0.0-beta.54",
-  
     "autoprefixer": "^8.6.5",
     "babel-loader": "^8.0.0-beta.4",
     "connect-history-api-fallback": "^1.5.0",
@@ -35,7 +34,6 @@
     "jquery": "^3.3.1",
     "mongoose": "^5.2.4",
     "node": "^10.7.0",
-    "node-sass": "^4.9.2",
     "nodemon": "^1.18.3",
     "postcss-loader": "^2.1.6",
     "react": "^16.4.1",
@@ -43,6 +41,7 @@
     "react-hot-loader": "^4.3.3",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
+    "request": "^2.87.0",
     "sass-loader": "^6.0.7",
     "video-react": "^0.13.0",
     "webpack": "^4.16.1",
